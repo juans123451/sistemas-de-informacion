@@ -1,0 +1,16 @@
+/* Aplica un contenedor con 75% del ancho de la pantalla */
+.card-body {
+    width: 75% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 20px !important;
+}
+
+/* Asegura que la fila contenedora se mantenga centrada en la pantalla */
+.row.mt-2 {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al inicio de la fila */
+}
+.container-fluid{
+    color:rgb(35, 184, 80) !important;
+}
